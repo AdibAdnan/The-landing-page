@@ -77,7 +77,7 @@ a{
     font-weight: 500;
 }
 
-.right{
+.hero .right{
     flex-grow: 1;
     flex-basis: 600px;
 
@@ -122,3 +122,56 @@ a{
 }
 
 /* qoute section  */
+.qoute{
+    background-color: #E5E7EB;
+    padding: 50px 0px;
+}
+.qoute-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 400;
+}
+.name{
+    text-align: end;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* call-to-action  */
+.call-to-action{
+    background-color: #F9FAF8;
+    padding: 50px 0px;
+}
+ .call-to-action .container{
+    background-color: #3882F6;
+    padding: 40px 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .call-to-action h1{
+    color: #F9FAF8;
+    font-weight: bold;
+ }
+ .call-to-action p{
+    color: #F9FAF8;
+    font-weight: 300;
+ }
+.call-to-action .left{
+    display: flex;
+    justify-content: flex-end;
+}
+ .call-to-action button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #F9FAF8;
+    width: 120px;
+    padding: 3px 0px;
+ }
+
+ /* footer  */
+ 
